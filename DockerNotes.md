@@ -13,3 +13,5 @@ CMD ["bash"]
 
 // Search
     docker search (name of image):(veriosn)
+
+* Watch Traversy series
