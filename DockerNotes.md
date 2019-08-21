@@ -14,4 +14,23 @@ CMD ["bash"]
 // Search
     docker search (name of image):(veriosn)
 
-* Watch Traversy series
+// Show running containers
+    docker container ls
+
+// Show all containers
+    docker container ls -a
+
+// Remove container
+    docker container rm (first 3 characters of container)
+
+// Run Docker in background
+    docker container run -d -p 8080:80 --name mynginx nginx
+
+// Running Docker with MySQL
+    docker container run -d -p 3306:3306 --name mysql --env MYSQL_ROOT_PASSWORD=123456 mysql
+
+// Check properties
+    docker info
+
+// Check Gradler properties
+    gradle properties
