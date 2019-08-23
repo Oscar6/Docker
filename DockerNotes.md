@@ -32,5 +32,7 @@ CMD ["bash"]
 // Check properties
     docker info
 
-// Check Gradler properties
+// Check Gradle properties
     gradle properties
+
+Continue Angular + Firebase course
