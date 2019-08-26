@@ -35,4 +35,4 @@ CMD ["bash"]
 // Check Gradle properties
     gradle properties
 
-Continue Angular + Firebase course
+Redo Setup on this machine
